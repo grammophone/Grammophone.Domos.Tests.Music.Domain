@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ProjectGuid>{717AC594-D6B6-4E27-8F02-996366AFD511}</ProjectGuid>
+		<TargetFrameworks>net472;netstandard2.1</TargetFrameworks>
+		<AssemblyTitle>Grammophone.Domos.Tests.Music.Domain</AssemblyTitle>
+		<Product>Grammophone.Domos.Tests.Music.Domain</Product>
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Grammophone.Domos.Domain\Grammophone.Domos.Domain.csproj" />
+		<ProjectReference Include="..\Grammophone.GenericContentModel\Grammophone.GenericContentModel.csproj" />
+	</ItemGroup>
+</Project>
