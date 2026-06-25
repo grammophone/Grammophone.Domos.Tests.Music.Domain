@@ -13,5 +13,11 @@ This project defines the fictional music catalog, record label, album, track, us
 
 This project expects these sibling projects to be available when building from the solution or from extracted submodules:
 
+Direct project references:
+
 - `Grammophone.Domos.Domain`
 - `Grammophone.GenericContentModel`
+
+Additional transitive project references:
+
+- None
