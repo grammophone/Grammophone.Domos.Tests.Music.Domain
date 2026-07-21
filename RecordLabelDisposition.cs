@@ -24,15 +24,6 @@ namespace Grammophone.Domos.Tests.Music.Domain
 		[ForeignKey(nameof(RecordLabelID))]
 		public virtual RecordLabel RecordLabel { get; set; }
 
-		/// <summary>
-		/// The owning music user.
-		/// </summary>
-		public virtual MusicUser User
-		{
-			get => (MusicUser)this.OwningUser;
-			set => this.OwningUser = value;
-		}
-
 		/// <inheritdoc/>
 		RecordLabel ISegregatedEntity<MusicUser, RecordLabel>.Segregation => this.RecordLabel;
 
